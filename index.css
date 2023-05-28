@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: url('https://cdn.pixabay.com/photo/2021/11/14/20/08/background-6795626_960_720.png');
+    background-size: cover;
+    height: 100vh;
+    color: aliceblue;
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color:rgba(66, 26, 151, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 2px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.botao:hover {
+    background-color: black;
+    transform: scale(1.08);
+}
+
+#resultado {
+    background-color: aliceblue;
+    width: 215px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+}
