@@ -54,3 +54,10 @@ h1 {
     color: black;
     text-align: right;
 }
+
+@media screen and (max-widht:500px ){
+    .calculadora{
+        height: 600px;
+        width: 240px;
+    }
+}
